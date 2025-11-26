@@ -1,1 +1,44 @@
-
+{
+    "model_type": "roberta",
+    "num_emotions": 8,
+    "hidden_size": 768,
+    "emotion_classes": [
+        "complex",
+        "humor",
+        "irony",
+        "negative",
+        "neutral",
+        "nostalgia",
+        "positive",
+        "surprise"
+    ],
+    "emotion_mapping": {
+        "admiration": "positive",
+        "excitement": "positive",
+        "hope": "positive",
+        "joy": "positive",
+        "love": "positive",
+        "empowerment": "positive",
+        "relaxation": "positive",
+        "anger": "negative",
+        "contempt": "negative",
+        "disapproval": "negative",
+        "embarrassment": "negative",
+        "fear": "negative",
+        "sadness": "negative",
+        "concern": "negative",
+        "activism": "complex",
+        "anticipation": "complex",
+        "curiosity": "complex",
+        "drama": "complex",
+        "intensity": "complex",
+        "reflection": "complex",
+        "solidarity": "complex",
+        "sincerity": "complex",
+        "humor": "humor",
+        "somber irony": "irony",
+        "surprise": "surprise",
+        "neutral": "neutral",
+        "nostalgia": "nostalgia"
+    }
+}
